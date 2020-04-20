@@ -23,4 +23,24 @@ fn main() {
    println!("product = {}",product);
    println!("quotient = {}",quotient);
    println!("remainder = {}",remainder);
+   let t = true;
+   let f: bool = false;
+   println!("t = {}", t); 
+   println!("f = {}", f); 
+   let c = 'z';
+   let z = 'Z';
+   let heart_eyed_cat = "é";
+   println!("{} {} {}",c,z,heart_eyed_cat);
+   let tup: (i32, f64, u8)= (500, 6.4, 1);
+   let (x, y, z) = tup;
+   println!("{} {} {}",x,y,z);
+   let xx: (i32, f64, u8) = (500, 6.4,1);
+   let five_hundred = xx.0;
+   let six_point_four = xx.1;
+   let one = xx.2;
+   println!("{} {} {}",five_hundred, six_point_four, one);
+   let a = [1,2,3,4,5];
+   let first = a[0];
+   let second = a[1];
+   println!("{} {}",first,second);
 }
