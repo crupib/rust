@@ -43,4 +43,11 @@ fn main() {
    let first = a[0];
    let second = a[1];
    println!("{} {}",first,second);
+   let c = 5;
+   let d = {
+       let c = 3;
+       c+1
+   };
+   println!("The value of d is: {}",d);
+   println!("The value of c is: {}",c);
 }
