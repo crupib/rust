@@ -19,4 +19,12 @@ fn main() {
     } else {
         println!("number3 is not divisble by 4,3,2");
     }
+    let condition = true;
+    let number4 = if condition {
+        5;
+        9
+    } else {
+             6
+    };
+    println!("The value of number is: {}", number4);
 }
