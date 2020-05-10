@@ -1,5 +1,5 @@
 fn main() {
-    let mut s = String::from("fucking hello world");
+    let mut s = String::from("blowme you fucking hello world");
     let word = first_word(&s);
     println!("{}",word);
     s.clear();
