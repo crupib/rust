@@ -1,6 +1,8 @@
 fn main() { 
     const MAX_POINTS: u32 = 100_000;
     let mut x = 5;
+    let t = true;
+    let f: bool = false;
     let y = 10;
     let z = 5;
     let z = z + 1;
@@ -10,5 +12,6 @@ fn main() {
     println!("The value of x is: {}", x);
     println!("The value of y is: {}", y);
     println!("Const is : {}", MAX_POINTS); 
-    println!("The final value of z is {}", z)
+    println!("The final value of z is {}", z);
+    println!("t = {}, f = {}", t,f);
 }
