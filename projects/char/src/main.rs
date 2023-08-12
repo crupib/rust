@@ -21,6 +21,32 @@ fn main() {
     println!("{}", months[0]);
     println!("{}", fifth);
     myprintfun(c,a);
+    let mut my_name: String = "Dave".to_string();
+    my_name.push('!');
+    println!("{}" ,my_name);
+    let first_letter = 'A';
+    println!("First Letter: {}", first_letter);
+    let space = ' ';
+    println!("space: {}", space);
+    let other_langauge = 'Ꮔ';
+    println!("other_langauge: {}", other_langauge);
+    let cat_face = '😺';
+    println!("cat: {}", cat_face);
+    println!("Size of a char: {}", std::mem::size_of::<char>());
+    println!("Size of string containing 'a': {}", "a".len());
+    println!("Size of string containing 'ß': {}", "ß".len());
+    println!("Size of string containing '国': {}", "国".len());
+    println!("Size of string containing '𓅱': {}", "𓅱".len());
+    let slice = "Hello!";
+    println!("Slice is {} bytes.", slice.len());
+    let slice2 = "안녕!";
+    println!("Slice2 is {} bytest.", slice2.len());
+    println!("{:?}", "a".as_bytes());
+    println!("{:?}", "ß".as_bytes());
+    println!("{:?}", "国".as_bytes());
+    println!("{:?}", "𓅱".as_bytes());
+
+
 }
 fn myprintfun(c: char, a: i32)
 {
