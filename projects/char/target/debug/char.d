@@ -1,1 +1,1 @@
-/Users/williamcrupi/Documents/github/rust/projects/char/target/debug/char: /Users/williamcrupi/Documents/github/rust/projects/char/src/main.rs
+C:\Users\crupi\source\rust\projects\char\target\debug\char.exe: C:\Users\crupi\source\rust\projects\char\src\main.rs
