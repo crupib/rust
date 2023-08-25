@@ -1,6 +1,7 @@
 fn main() {
     println!("Hello, Bill Chars! and other stuff!");
     println!("update");
+    println!("give it up");
     let c = 'z';
     let z = 'Z';
     let tup: (i32, f64, u8) = (500, 6.4, 1);
