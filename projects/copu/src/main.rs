@@ -5,6 +5,7 @@ fn main() {
     println!("{}",x);
     makes_copy(x);
     println!("Hello, world!");
+    println!("Hello, world!");
     println!("{}",x);
     
 }

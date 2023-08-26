@@ -1,1 +1,1 @@
-/Users/williamcrupi/Documents/github/rust/projects/clone/target/debug/clone: /Users/williamcrupi/Documents/github/rust/projects/clone/src/main.rs
+C:\Users\crupi\source\rust\projects\clone\target\debug\clone.exe: C:\Users\crupi\source\rust\projects\clone\src\main.rs
