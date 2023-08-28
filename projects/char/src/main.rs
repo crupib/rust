@@ -4,6 +4,7 @@ fn main() {
     println!("give it up");
     let c = 'z';
     let z = 'Z';
+    println!("{}",z);
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     let heart_eyed_cat = '😹';
     let (a,b,d) = tup;
@@ -14,6 +15,10 @@ fn main() {
     let fifth = arr[4];
     let y = {let j = 3;
                   j+1};
+    println!("{}",y);
+    let tup2 = (500,6.4,1);
+    let (x,y,z) = tup2;
+    println!("the value of xyz is: {} {} {}",x,y,z);
     println!("y = {}", y);
     println!("c = {}, z = {}, heart_eyed_cat = {}", c, z, heart_eyed_cat);
     println!("a = {}, b = {}, c = {}", a, b, d);
@@ -30,8 +35,8 @@ fn main() {
     println!("First Letter: {}", first_letter);
     let space = ' ';
     println!("space: {}", space);
-    let other_langauge = 'Ꮔ';
-    println!("other_langauge: {}", other_langauge);
+    let other_language = 'Ꮔ';
+    println!("other_language: {}", other_language);
     let cat_face = '😺';
     println!("cat: {}", cat_face);
     println!("Size of a char: {}", std::mem::size_of::<char>());
@@ -42,16 +47,14 @@ fn main() {
     let slice = "Hello!";
     println!("Slice is {} bytes.", slice.len());
     let slice2 = "안녕!";
-    println!("Slice2 is {} bytest.", slice2.len());
+    println!("Slice2 is {} by test.", slice2.len());
     println!("{:?}", "a".as_bytes());
     println!("{:?}", "ß".as_bytes());
     println!("{:?}", "国".as_bytes());
     println!("{:?}", "𓅱".as_bytes());
-
-
 }
 fn myprintfun(c: char, a: i32)
 {
-    println!("Hello from myprintfun");
+    println!("Hello from my print fun");
     println!("c = {} a = {}", c, a);
 }
