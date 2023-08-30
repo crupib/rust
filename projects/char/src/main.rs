@@ -56,8 +56,14 @@ fn main() {
     let first = q[0];
     let second = q[1];
     println!("first = {} second = {}", first,second);
-    another_function();
-
+    another_function(124, 0);
+    let t = {
+        let x = 3;
+        x+1
+    };
+    println!("t = {}", t);
+    let X = five();
+    println!("X = {}", X);
 }
 fn my_print_fun(c: char, a: i32)
 {
@@ -65,6 +71,9 @@ fn my_print_fun(c: char, a: i32)
     println!("c = {} a = {}", c, a);
 
 }
-fn another_function() {
-    println!("Another function.");
+fn another_function(x: i32, y: i32) {
+    println!("Another function. {} {}", x, y);
+}
+fn five() -> i32 {
+    5
 }
