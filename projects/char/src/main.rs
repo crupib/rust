@@ -27,7 +27,7 @@ fn main() {
     println!("{} {} {}", arr[0], arr[1], arr[2]);
     println!("{}", months[0]);
     println!("{}", fifth);
-    myprintfun(c,a);
+    my_print_fun(c,a);
     let mut my_name: String = "Dave".to_string();
     my_name.push('!');
     println!("{}" ,my_name);
@@ -52,9 +52,19 @@ fn main() {
     println!("{:?}", "ß".as_bytes());
     println!("{:?}", "国".as_bytes());
     println!("{:?}", "𓅱".as_bytes());
+    let q = [1,2,3,4,5];
+    let first = q[0];
+    let second = q[1];
+    println!("first = {} second = {}", first,second);
+    another_function();
+
 }
-fn myprintfun(c: char, a: i32)
+fn my_print_fun(c: char, a: i32)
 {
     println!("Hello from my print fun");
     println!("c = {} a = {}", c, a);
+
+}
+fn another_function() {
+    println!("Another function.");
 }
