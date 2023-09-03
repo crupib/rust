@@ -62,8 +62,18 @@ fn main() {
         x+1
     };
     println!("t = {}", t);
-    let X = five();
-    println!("X = {}", X);
+    let x = five();
+    println!("x = {}", x);
+    let x = five();
+    println!("x = {}", x);
+    let z = plus_one(5);
+    println!("z = {}",z);
+    let number = 5;
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
 }
 fn my_print_fun(c: char, a: i32)
 {
@@ -76,4 +86,7 @@ fn another_function(x: i32, y: i32) {
 }
 fn five() -> i32 {
     5
+}
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
