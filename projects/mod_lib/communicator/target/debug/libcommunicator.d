@@ -1,0 +1,1 @@
+C:\Users\crupi\source\repos\rust\projects\mod_lib\communicator\target\debug\libcommunicator.rlib: C:\Users\crupi\source\repos\rust\projects\mod_lib\communicator\src\client.rs C:\Users\crupi\source\repos\rust\projects\mod_lib\communicator\src\lib.rs
