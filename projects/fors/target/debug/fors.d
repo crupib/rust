@@ -1,1 +1,1 @@
-/Users/williamcrupi/Documents/github/rust/projects/fors/target/debug/fors: /Users/williamcrupi/Documents/github/rust/projects/fors/src/main.rs
+C:\Users\crupi\source\rust\projects\fors\target\debug\fors.exe: C:\Users\crupi\source\rust\projects\fors\src\main.rs

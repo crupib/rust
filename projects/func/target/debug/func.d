@@ -1,1 +1,1 @@
-/Users/williamcrupi/Documents/github/rust/projects/func/target/debug/func: /Users/williamcrupi/Documents/github/rust/projects/func/src/main.rs
+C:\Users\crupi\source\rust\projects\func\target\debug\func.exe: C:\Users\crupi\source\rust\projects\func\src\main.rs
